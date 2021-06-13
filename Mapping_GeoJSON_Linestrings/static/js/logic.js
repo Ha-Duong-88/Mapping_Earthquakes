@@ -1,4 +1,4 @@
-// Map GeoJSON Point Types
+// Map GeoJSON LineStrings
 
 // Add console.log to check to see if our code is working.
 console.log("working");
@@ -113,9 +113,10 @@ console.log("working");
 // Using the Mapbox Styles API on Leaflet tileLayer() method here to create tile layer.
 
 // We create the tile layer that will be the background of our map.
-// We can change the Mapbox styles, for example dark-v10 for dark view, streets-v11 for street view tile layer, etc.
+// We can change the Mapbox styles, for example dark-v10 for dark view, streets-v11 for street view, light-v10 for the light view in tile layer, etc.
+// the variable for the tile layer should match the map style used.
 // Check the Mapbox Static Tiles API
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let light = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     accessToken: API_KEY
@@ -130,19 +131,41 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 
 // Create a base layer that holds both maps.
 // This code adds both map variables to a new variable, 'baseMaps'.
-// this variable will be used as our base layer, which we will reference later,
+// This variable will be used as our base layer, which we will reference later,
+// let baseMaps = {
+    // Street: streets,
+    // Dark: dark
+//   };
+
+
+// Change the variable to 'light'
 let baseMaps = {
-    Street: streets,
+    Street: light,
     Dark: dark
   };
-  
 
   // Create the map object with center, zoom level and default layer.
+// let map = L.map('mapid', {
+    // center: [30, 30],
+    // zoom: 2,
+    // layers: [streets]
+// })
+
+// Create the map object with center, zoom level and default layer.
+// Set the coordinates to Toronto in the array.
+// let map = L.map('mapid', {
+    // center: [44.0, -80.0],
+    // zoom: 2,
+    // layers: [streets]
+// })
+// 
 let map = L.map('mapid', {
-    center: [30, 30],
+    center: [44.0, -80.0],
     zoom: 2,
-    layers: [streets]
+    layers: [light]
 })
+
+
 
 // Pass our map layers into our layers control and add the layers control to the map.
 // To complete the code for the map layers, use the Leaflet control.layers, which will control the layers we'll see on the map.
@@ -155,23 +178,72 @@ L.control.layers(baseMaps).addTo(map);
 // streets.addTo(map);
 
 // Accessing the airport GeoJSON URL in my GitHub repository.
-let airportData = "https://https://raw.githubusercontent.com/Ha-Duong-88/Mapping_Earthquakes/Mapping_GeoJSON_Points/majorAirports.json";
+// let airportData = "https://https://raw.githubusercontent.com/Ha-Duong-88/Mapping_Earthquakes/Mapping_GeoJSON_Points/majorAirports.json";
+
+// Accessing the Toronto airline routes GeoJSON URL.
+let torontoData = "https://raw.githubusercontent.com/Ha-Duong-88/Mapping_Earthquakes/Mapping_GeoJSON_Linestrings/torontoRoutes.json";
 
 
 // Grabbing our GeoJSON data.
 // Add the d3.json() method which returns a prommise with the then() method and anonymous function().
 // 'data' parameter inside the anonymous function() references airportData
-d3.json(airportData).then(function(data) {
+// d3.json(airportData).then(function(data) {
+    // console.log(data);
+  //Creating a GeoJSON layer with the retrieved data.
+//   L.geoJson(data).addTo(map);
+// });
+
+
+// Grabbing our GeoJSON data.
+// d3.json(torontoData).then(function(data) {
+    // console.log(data);
+  //Creating a GeoJSON layer with the retrieved data.
+//   L.geoJson(data).addTo(map);
+// });
+
+
+// Grabbing our GeoJSON data.
+// Default map layer is night navigation with day navigation as another option
+// Airline routes are in light yellow with a weight of 2
+// Each airline route has a popup marker that shows the airline code and destination
+d3.json(torontoData).then(function(data) {
     console.log(data);
-  // Creating a GeoJSON layer with the retrieved data.
-  L.geoJson(data).addTo(map);
+  //Creating a GeoJSON layer with the retrieved data.
+  L.geoJson(data, {
+      color: "#ffffa1",
+      weight: 2, 
+      onEachFeature: function(feature, layer) {
+        //   layer.bindPopup("<h3> Airline: " +  feature.properties.airline + "</h3> <hr><h3> Destination: " + feature.properties.dst + "</h3>");
+    }
+  })
+  .addTo(map);
 });
+  
 
-
-
-
-
-
+// To make above code easier to read, we can create an object with the style parameters for the lines and assign it to a variable, 'myStyle'
+// Add this code before d3.json()
+// Modify the L.geoJson() layer code 
+// Create a style for the lines.
+// let myStyle = {
+    // color: "#ffffa1",
+    // weight: 2
+// }
+// 
+// d3.json(torontoData).then(function(data) {
+    // console.log(data);
+  //Creating a GeoJSON layer with the retrieved data.
+//   L.geoJson(data, {
+    //   style: myStyle,
+    //   onEachFeature: function(feature, layer) {
+        //   layer.bindPopup("<h3> Airline: " +  feature.properties.airline + "</h3> <hr><h3> 
+// Destination: " + feature.properties.dst + "</h3>");
+    // }
+//   })
+//   .addTo(map);
+// });
+// 
+// 
+// 
 
 
 

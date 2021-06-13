@@ -11,6 +11,7 @@ console.log("working");
 let map = L.map('mapid').setView([34.0522, -118.2437], 14);
 
 // Add a marker to the map for Los Angeles, California.
+// When we add a single marker to our map, we assign marker variable to the Leaflet class marker() function. This function adds one latitude and longitude to the map.
 // Add this line of code before our tileLayer()code.
 // let marker = L.marker([34.0522, -118.2437]).addTo(map);
 

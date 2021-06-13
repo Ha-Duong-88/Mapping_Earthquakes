@@ -3,7 +3,7 @@ console.log("working");
 
 // Create the map object with a center and zoom level.
 // Assign variable map to L.map() and instantiate object with 'mapid' string.
-// The 'mapid' will reference the 'id' tage in our 'div' element in index.html.
+// The 'mapid' will reference the 'id' tag in our 'div' element in index.html.
 // setview() sets the view of the map with a geographical center.
 let map = L.map('mapid').setView([40.7, -94.5], 4);
 
