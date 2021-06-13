@@ -6,7 +6,7 @@
 The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days using JSON data from United States Geological Survey (USGS) for earthquake data. 
 
 ## Scope 
-The scope of the project was to create maps, add earthquake data to the maps, and customizing and stylizing the maps with circles to denote the size of the earthquake magnitugue, popups to display information, various attributes (or features and properties) and tile layer styles.
+The scope of the project was to create maps, add earthquake data to the maps, and customizing and stylizing the maps with circles to denote the size of the earthquake magnitugue, popups to display information, various attributes (or features and properties) such as color, radius size based on earthquake magnitude and tile layer styles.
 
 ## Approach
 The approach used was to:
