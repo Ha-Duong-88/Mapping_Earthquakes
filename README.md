@@ -39,20 +39,19 @@ Picture 4:
 
 Picture 5:
 
-![Earthquake_Map5](https://user-images.githubusercontent.com/80140082/121813772-6f1c1d80-cc22-11eb-86ae-b92e9d59431f.png)
+![Earthquake_Map6](https://user-images.githubusercontent.com/80140082/121813791-80fdc080-cc22-11eb-9221-95d248f56f67.png)
 
 Picture 6:
 
-![Earthquake_Map6](https://user-images.githubusercontent.com/80140082/121813791-80fdc080-cc22-11eb-9221-95d248f56f67.png)
+![Earthquake_Map7](https://user-images.githubusercontent.com/80140082/121813800-8a872880-cc22-11eb-862b-627e0b91ef17.png)
 
 Picture 7:
 
-![Earthquake_Map7](https://user-images.githubusercontent.com/80140082/121813800-8a872880-cc22-11eb-862b-627e0b91ef17.png)
+![Earthquake_Map8](https://user-images.githubusercontent.com/80140082/121813914-20bb4e80-cc23-11eb-9dba-69acd55f8581.png)
 
 Picture 8:
 
-![Earthquake_Map8](https://user-images.githubusercontent.com/80140082/121813914-20bb4e80-cc23-11eb-9dba-69acd55f8581.png)
-
+![Earthquake_Map8](https://user-images.githubusercontent.com/80140082/121814035-c373cd00-cc23-11eb-9802-ee5338f2cddf.png)
 
 
 
