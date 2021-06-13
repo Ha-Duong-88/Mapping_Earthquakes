@@ -4,10 +4,7 @@
 # Project Overview
 
 ## Purpose
-The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days using JSON data from United States Geological Survey (USGS) for earthquake data. ![Earthquake_Map1](https://user-images.githubusercontent.com/80140082/121813345-80fcc100-cc20-11eb-927e-1eb5ee551f42.png)
-![Earthquake_Map2](https://user-images.githubusercontent.com/80140082/121813351-85c17500-cc20-11eb-9a25-1301bde3b23e.png)
-![Earthquake_Map3](https://user-images.githubusercontent.com/80140082/121813358-8b1ebf80-cc20-11eb-8d96-32f5175c3159.png)
-
+The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days using JSON data from United States Geological Survey (USGS) for earthquake data. 
 
 ## Scope 
 The scope of the project was to create maps, add earthquake data to the maps, and customizing and stylizing the maps with circles to denote the size of the earthquake magnitugue, popups to display information, various attributes (or features and properties) and tile layer styles.
@@ -26,3 +23,6 @@ This repository contains all the project branches created for different styles o
 The following are various views of the earthquake maps for the past 7 days. At the upper corner, there is a popup to select different map views.
 
  
+![Earthquake_Map1](https://user-images.githubusercontent.com/80140082/121813345-80fcc100-cc20-11eb-927e-1eb5ee551f42.png)
+![Earthquake_Map2](https://user-images.githubusercontent.com/80140082/121813351-85c17500-cc20-11eb-9a25-1301bde3b23e.png)
+![Earthquake_Map3](https://user-images.githubusercontent.com/80140082/121813358-8b1ebf80-cc20-11eb-8d96-32f5175c3159.png)
