@@ -20,9 +20,42 @@ The approach used was to:
 This repository contains all the project branches created for different styles of maps using Leaflet library and Mapbox API. The Mapbox styles included: maps with circle markers, maps with points, maps with LineStrings, and polygons from GeoJSON data, adding earthquake data to the maps with data and adding different styles for the maps. Users can reference and use the maps in the branches to learn how to create simple to complex GeoJSON maps.
 
 # Results
-The following are various views of the earthquake maps for the past 7 days. At the upper corner, there is a popup to select different map views.
+The following are various views of the earthquake maps for the past 7 days. At the upper corner, there is a popup to select different map views - all earthquakes, tectonic plates, major earthquakes.
 
+Picture 1:
  
-![Earthquake_Map1](https://user-images.githubusercontent.com/80140082/121813345-80fcc100-cc20-11eb-927e-1eb5ee551f42.png)
-![Earthquake_Map2](https://user-images.githubusercontent.com/80140082/121813351-85c17500-cc20-11eb-9a25-1301bde3b23e.png)
-![Earthquake_Map3](https://user-images.githubusercontent.com/80140082/121813358-8b1ebf80-cc20-11eb-8d96-32f5175c3159.png)
+![Earthquake_Map1](https://user-images.githubusercontent.com/80140082/121813719-2c5a4580-cc22-11eb-8147-6d24c856abb4.png)
+
+Picture 2:
+
+![Earthquake_Map2](https://user-images.githubusercontent.com/80140082/121813738-472cba00-cc22-11eb-9790-bb0e85c86a44.png)
+
+Picture 3: 
+
+![Earthquake_Map3](https://user-images.githubusercontent.com/80140082/121813745-514eb880-cc22-11eb-9967-ec51ca42c0d8.png)
+
+Picture 4:
+
+![Earthquake_Map4](https://user-images.githubusercontent.com/80140082/121813763-63305b80-cc22-11eb-883b-7b94459a9ed7.png)
+
+Picture 5:
+
+![Earthquake_Map5](https://user-images.githubusercontent.com/80140082/121813772-6f1c1d80-cc22-11eb-86ae-b92e9d59431f.png)
+
+Picture 6:
+
+![Earthquake_Map6](https://user-images.githubusercontent.com/80140082/121813791-80fdc080-cc22-11eb-9221-95d248f56f67.png)
+
+Picture 7:
+
+![Earthquake_Map7](https://user-images.githubusercontent.com/80140082/121813800-8a872880-cc22-11eb-862b-627e0b91ef17.png)
+
+Picture 8:
+
+![Earthquake_Map8](https://user-images.githubusercontent.com/80140082/121813809-94109080-cc22-11eb-9894-604484ab9aa3.png)
+
+
+
+
+
+
