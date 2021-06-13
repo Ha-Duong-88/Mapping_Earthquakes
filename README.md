@@ -1,6 +1,5 @@
 # Mapping_Earthquakes
 
-# Draft
 # Project Overview
 
 ## Purpose
@@ -52,7 +51,8 @@ Picture 7:
 
 Picture 8:
 
-![Earthquake_Map8](https://user-images.githubusercontent.com/80140082/121813809-94109080-cc22-11eb-9894-604484ab9aa3.png)
+![Earthquake_Map8](https://user-images.githubusercontent.com/80140082/121813914-20bb4e80-cc23-11eb-9dba-69acd55f8581.png)
+
 
 
 
