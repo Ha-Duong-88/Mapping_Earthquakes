@@ -25,6 +25,7 @@ This repository contains all the project branches created for different styles o
     3) Maps with GeoJSON data displaying polygons and linestrings
     4) Examples of importing GeoJSON data from JSON data file and URLs
     5) Examples of adding functionality to markers
+    6) Examples using different Mapbox styles API
 
 
 # Results
