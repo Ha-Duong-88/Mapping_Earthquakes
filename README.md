@@ -23,7 +23,7 @@ This repository contains all the project branches created for different styles o
     2) Maps with single and multiple points
     3) Maps with lines
     3) Maps with GeoJSON data displaying polygons and linestrings
-    4) Examples of importing GeoJSON data from JSON data file and URLs.
+    4) Examples of importing GeoJSON data from JSON data file and URLs
 
 
 # Results
