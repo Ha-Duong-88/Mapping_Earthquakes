@@ -4,17 +4,19 @@
 # Project Overview
 
 ## Purpose
-The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days.
+The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days using JSON data from United States Geological Survey (USGS) for earthquake data.
 
-## Scope:
-The scope of this project involved:
-    1) Using a URL for GeoJSON earthquake data from the USGS website, retrieving geographical coordinates and the magnitudes of earthquakes for the last seven   
-      days, then adding the data to a map.
-    2) Creating a config.js file, which will hold our Mapbox API key.
-    3) Creating a logic.js file, which will contain all the JavaScript and Leaflet code to create the map and add data to the map.
+## Scope & Approach
+The project scope involved:
+    1) Using GeoJSON data, retrieving geographical coordinates and the magnitudes of earthquakes for the last seven days and adding the data to a map.
+    2) Using Mapbox API and LeafLet tile layers. Mapbox API was used to create custom map.
+    3) Writing JavaScript and D3.js to library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data.
+    4) Using the Leaflet library to plot the data on a Mapbox map thorugh an API request and create interactivity for the earthquake data.
+    
+    to create the map, add data to the map, and customizing and stylizing the map with markers, popups, 
 
 ## Approach
-Your approach will be to use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. You'll use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
+The app JavaScript and the D3.js library to retrieve  You'll use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
 
 Set up a Mapbox account and get the API token you'll need to create geographical maps. Mapbox API was used to create custom maps for websites and applications.
 
