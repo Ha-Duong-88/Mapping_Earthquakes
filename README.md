@@ -29,7 +29,7 @@ This repository contains all the project branches created for different styles o
 
 
 # Results
-The following are various views of the earthquake maps for the past 7 days. At the upper corner, there is a popup to select different map views - all earthquakes, tectonic plates, major earthquakes.
+The following are various views of the earthquake maps for the past 7 days. At the upper corner, there is a popup to select different map views based on the Ma box styles and earthquake data - all earthquakes, tectonic plates, major earthquakes 
 
 Picture 1:
  
