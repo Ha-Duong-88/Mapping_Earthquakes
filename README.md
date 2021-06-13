@@ -23,9 +23,11 @@ This repository contains all the project branches created for different styles o
     2) Maps with single and multiple points
     3) Maps with lines
     3) Maps with GeoJSON data displaying polygons and linestrings
-    4) Examples of importing GeoJSON data from JSON data file and URLs
-    5) Examples of adding functionality to markers
-    6) Examples using different Mapbox styles API
+    4) Using Layer Groups and Layers Control to add data as an overlay to the map
+    5) Examples of importing GeoJSON data from JSON data file and URLs
+    6) Examples of adding functionality to markers
+    7) Examples using different Mapbox styles API
+    
 
 
 # Results
