@@ -14,7 +14,7 @@ The approach used was to:
     2) Using Mapbox API and LeafLet library to plot the data on a Mapbox mqp through an API request and create custom, interactive geographical map.
     3) Using JavaScript code an D3.js to library, write code to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data.
     
-## Purpose of the Repository
+# Purpose of the Repository
 
 This repository contains all the project branches created for different styles of maps using Leaflet library and Mapbox API. The Mapbox styles included: maps with circle markers, maps with points, maps with LineStrings, and polygons from GeoJSON data, adding earthquake data to the maps with data and adding different styles for the maps. Users can reference and use the maps in the branches to learn how to create simple to complex GeoJSON maps.
 
