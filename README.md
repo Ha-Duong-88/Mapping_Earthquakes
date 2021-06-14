@@ -76,11 +76,11 @@ The following are various views of the earthquake maps for the past 7 days. At t
 
 ### Picture 10 - Single Point
 
-![Single_Point](https://user-images.githubusercontent.com/80140082/121835523-59404400-cc86-11eb-977b-dcb9062c7202.png)
+![Single_Point](https://user-images.githubusercontent.com/80140082/121835813-04e99400-cc87-11eb-9155-978e301a2bfe.png)
 
 ### Picture 11 - Multiple Points
 
-![Multiple_Points](https://user-images.githubusercontent.com/80140082/121835535-62c9ac00-cc86-11eb-8748-ab3058c4b1b9.png)
+![Multiple_Points](https://user-images.githubusercontent.com/80140082/121835826-0b780b80-cc87-11eb-9df2-af1487735ffc.png)
 
 ### Picture 12 - LineStrings
 
