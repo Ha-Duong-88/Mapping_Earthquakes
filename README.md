@@ -17,16 +17,18 @@ The approach used was to:
     
 # Purpose of the Repository
 
-This repository contains all the project branches created for different styles of maps using Leaflet library and Mapbox API. The Mapbox styles included: maps with circle markers, maps with points, maps with LineStrings, and polygons from GeoJSON data, adding earthquake data to the maps with data and adding different styles for the maps. Users can reference and use the maps in the branches to learn how to create simple to complex GeoJSON maps. Some examples include: 
+This repository contains all the project branches created for different styles of maps using Leaflet library and Mapbox API. The examples of include: maps with circle markers, maps with points, maps with LineStrings, and polygons from GeoJSON data, adding earthquake data to the maps with data and adding different styles for the maps. Users can reference and use the maps in the branches to learn how to create simple to complex GeoJSON maps using Leaflet and Mapbox API. 
+
+Some examples include: 
 
     1) Simple Leaflet Map
     2) Maps with single and multiple points
     3) Maps with lines
     4) Maps with GeoJSON data displaying polygons and linestrings
-    5) Using Layer Groups and Layers Control to add data as an overlay to the map and "laid over" all the base layers and are visible allthe time
-    6) Examples of importing GeoJSON data from JSON data file and URLs
-    7) Examples of adding functionality to markers
-    8) Examples using different Mapbox styles API
+    5) Using Layer Groups and Layers Control to add data as an overlay to the map and "laid over" all the base layers and are  visible allthe time
+    6) Importing GeoJSON data from JSON data file and URLs
+    7) Adding functionality to markers
+    8) Using different Mapbox styles API
     
 
 
