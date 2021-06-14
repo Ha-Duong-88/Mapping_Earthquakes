@@ -1,4 +1,5 @@
 # Mapping_Earthquakes
+JavaScript, HTML, CSS, Leaflet library, and Mapbox API.
 
 # Project Overview
 
@@ -9,11 +10,12 @@ The purpose of this project is to visually show the differences between the magn
 The scope of the project was to create maps, add earthquake data to the maps, and customizing and stylizing the maps with circles, markers, and linestrings to denote the earthquake locations, various attributes (or features and properties) such as color, radius size based on earthquake magnitude, popups to display the data, and tile layer styles.
 
 ## Approach
-The approach used was to:
+This project involved:
 
-    1) Using GeoJSON data, retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days and adding the data to a map.
+    1) Using JSON and GeoJSON data, retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days and adding the data to a map.
     2) Using Mapbox API and LeafLet library to plot the data on a Mapbox mqp through an API request and create custom, interactive geographical map.
-    3) Using JavaScript code an D3.js to library, write code to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data.
+    3) Writing JavaScript code an D3.js to library, write code to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data.
+    4) Using CSS to style the hmtl.
     
 # Purpose of the Repository
 
