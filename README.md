@@ -35,7 +35,7 @@ Some examples include:
 
 
 # Results
-The following are various views of the earthquake maps for the past 7 days. At the upper corner, there is a popup to select different base layers or tile layers and overlays based on the Map box styles and earthquake data - all earthquakes, tectonic plates, major earthquakes 
+The following are various views of the earthquake maps for the past 7 days. At the upper corner, there is a popup to select different base layers or tile layers and overlays based on the Map box styles and earthquake data - all earthquakes, tectonic plates, major earthquakes. 
 
 
 ### Picture 1:
