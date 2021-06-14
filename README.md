@@ -19,7 +19,7 @@ This project involved:
     
 # Purpose of the Repository
 
-This repository contains all the project branches created for different styles of maps using Leaflet library and Mapbox API. The examples of include: maps with circle markers, maps with points, maps with LineStrings, and polygons from GeoJSON data, adding earthquake data to the maps with data and adding different styles for the maps. Users can reference and use the maps in the branches to learn how to create simple to complex GeoJSON maps using Leaflet and Mapbox API. 
+This repository contains all the project branches created for different styles of maps using Leaflet library and Mapbox API. The examples of include: maps with circle markers, maps with points, maps with linestrings, polygons from GeoJSON data, adding earthquake data to the maps with data and adding different styles for the maps. Anyone interested in creating geographical maps can reference and use the maps in the branches to learn how to create simple to complex GeoJSON maps using Leaflet and Mapbox API. The entire repository can serve as starter code creating maps.
 
 Some examples include: 
 
